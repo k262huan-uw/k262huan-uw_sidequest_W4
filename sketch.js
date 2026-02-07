@@ -66,7 +66,7 @@ function draw() {
 
 function drawHUD() {
   // HUD matches your original idea: show level count and controls.
-  fill(0);
+  fill("white");
   text(`Level ${li + 1}/${levels.length} — WASD/Arrows to move`, 10, 16);
 }
 
